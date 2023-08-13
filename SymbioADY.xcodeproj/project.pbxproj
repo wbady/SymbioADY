@@ -72,7 +72,6 @@
 		000068232A8665CA00FB7A1C /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		000068252A86662500FB7A1C /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		000068292A875ACF00FB7A1C /* DefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultsKeys.swift; sourceTree = "<group>"; };
-		0000682E2A87643800FB7A1C /* FHDiffableViewControllers-master */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "FHDiffableViewControllers-master"; path = "../../../Downloads/FHDiffableViewControllers-master"; sourceTree = "<group>"; };
 		000068312A87689C00FB7A1C /* RegistrationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationTableViewCell.swift; sourceTree = "<group>"; };
 		007412412A87C50B005A5BF9 /* RegistrationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationModel.swift; sourceTree = "<group>"; };
 		007412442A87D095005A5BF9 /* ColorSelectC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSelectC.swift; sourceTree = "<group>"; };
@@ -80,6 +79,7 @@
 		0074124A2A87EC7A005A5BF9 /* ATPickerPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATPickerPhoto.swift; sourceTree = "<group>"; };
 		0074124B2A87EC7A005A5BF9 /* ATAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATAlertView.swift; sourceTree = "<group>"; };
 		0074124E2A88B9F2005A5BF9 /* Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		007412502A8917DC005A5BF9 /* FHDiffableViewControllers-master */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "FHDiffableViewControllers-master"; sourceTree = "<group>"; };
 		0077B07C2A838D0200D4B123 /* SymbioADY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SymbioADY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0077B07F2A838D0200D4B123 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0077B0832A838D0200D4B123 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -137,7 +137,7 @@
 		0000682B2A87608100FB7A1C /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				0000682E2A87643800FB7A1C /* FHDiffableViewControllers-master */,
+				007412502A8917DC005A5BF9 /* FHDiffableViewControllers-master */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
