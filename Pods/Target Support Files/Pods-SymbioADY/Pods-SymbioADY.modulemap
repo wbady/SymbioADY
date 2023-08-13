@@ -1,0 +1,6 @@
+framework module Pods_SymbioADY {
+  umbrella header "Pods-SymbioADY-umbrella.h"
+
+  export *
+  module * { export * }
+}

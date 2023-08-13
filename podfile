@@ -1,0 +1,58 @@
+# Uncomment the next line to define a global platform for your project
+#source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+inhibit_all_warnings!
+
+target 'SymbioADY' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  
+  # 'C'
+  # 色盘
+  pod "Colorful"
+  # hud
+  pod 'Chrysan'
+  
+  # 'F'
+  # 导航手势
+  pod 'FDFullscreenPopGesture'
+
+  # 'H'
+  # 字典转模型工具
+  pod 'HandyJSON', '5.0.3-beta'
+
+  # 'I'
+  # 图片浏览器
+  pod 'ImageViewer', '6.0.0'
+  # 键盘自动隐藏
+  pod 'IQKeyboardManagerSwift', '6.5.5'
+  
+  # 'M'
+  # 上拉刷新控件
+  pod 'MJRefresh', '3.4.3'
+  # 网络请求库
+  pod 'Moya/RxSwift', '14.0.0'
+
+  # 'P'
+  # Promise库
+  pod 'PromiseKit'
+  
+  # 'R'
+  # Rx
+  pod 'RxCocoa', '5.1.1'
+  
+
+  # 'S'
+  # HUD
+  pod 'SVProgressHUD'
+  # 布局工具
+  pod 'SnapKit', '5.0.1'
+  # JSON工具
+  pod 'SwiftyJSON', '5.0.0'
+  # 偏好设置工具
+  pod 'SwiftyUserDefaults'
+  
+  # 'T'
+  pod 'Then', '2.7.0'
+
+end
