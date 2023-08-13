@@ -1,0 +1,39 @@
+name: Xcode Build
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+  workflow_dispatch:
+
+jobs:
+  build-macos-catalyst:
+    runs-on: macos-latest
+    
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build macOS
+        run: xcodebuild -scheme FHDiffableViewControllers -destination 'platform=macOS,arch=x86_64,variant=Mac Catalyst'
+      - name: Run macOS tests
+        run: xcodebuild -scheme FHDiffableViewControllers -destination 'platform=macOS,arch=x86_64,variant=Mac Catalyst' test
+  
+  build-ios:
+    runs-on: macos-latest
+    
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build iOS
+        run: xcodebuild -scheme FHDiffableViewControllers -destination 'name=iPhone 12'
+      - name: Run iOS tests
+        run: xcodebuild -scheme FHDiffableViewControllers -destination 'name=iPhone 12' test
+  
+  build-tvos:
+    runs-on: macos-latest
+    
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build iOS
+        run: xcodebuild -scheme FHDiffableViewControllers -destination 'name=Apple TV'
+      - name: Run iOS tests
+        run: xcodebuild -scheme FHDiffableViewControllers -destination 'name=Apple TV' test

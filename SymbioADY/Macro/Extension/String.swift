@@ -15,7 +15,7 @@ extension Ady where Base == String {
     static let SignUpList4 = "Phone Number"
     static let SignUpList5 = "Email"
     static let SignUpList6 = "Custom Avatar Color"
-    static let SignUpInput = "Input"
+    static let SignUpInput = "Please input"
     static let SignUpSel   = "Please select"
     static let SignUpBtn   = "Sign Up"
     static let registration   = "Registration"
